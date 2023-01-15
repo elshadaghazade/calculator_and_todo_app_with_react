@@ -1,0 +1,35 @@
+.calculator {
+    border: 1px solid #000;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+
+.screen {
+    border: 1px solid #000;
+    background-color: #fff;
+    padding: 10px;
+    height: 30px;
+}
+
+
+.keyboard {
+    border: 1px solid #000;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.key {
+    border: 1px solid #000;
+    width: 25%;
+    height: 60px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

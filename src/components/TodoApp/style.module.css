@@ -1,0 +1,97 @@
+.todoApp {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #ddd;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+
+}
+
+.title {
+    font-size: 1.4em;
+    margin: 0 0 20px 0;
+}
+
+.addTodo {
+    width: 100%;
+    display: flex;
+}
+
+.addTodoInput {
+    flex: 1;
+    flex-grow: 5;
+    font-size: 1em;
+    line-height: 1.4em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    padding: 5px;
+}
+
+.addTodoBtn {
+    flex: 1;
+    background-color: #1a89ff;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.todoList {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.todoItem, .todoItemEditable form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.isNotActive {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.todoItemControlBtns {
+    display: flex;
+    column-gap: 2px;
+}
+
+.todoItemControlBtns button {
+    background-color: #1a89ff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px;
+    font-size: 0.7em;
+}
+
+.todoAppControlWrapper {
+    display: flex;
+    width: 100%;
+}
+
+.todoAppControlWrapper a {
+    flex: 1;
+    font-size: 0.6em;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.todoAppControlWrapper a.selected {
+    text-decoration: underline;
+    color: red;
+}
